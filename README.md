@@ -16,7 +16,7 @@ During early prototyping, maintaining a visual web application in the same repos
 
 ### Future Roadmap (Post v1.0 Language Maturity)
 Once the FunnelScript core achieves stability and proven empirical forecasting accuracy:
-* **Visual Graph ⟷ `.fnl` Bi-Directional Compilation:** Marketers will drag-and-drop marketing channels, conditional audience filters, and touchpoint nodes, automatically generating clean `.fnl` code.
+* **Visual Graph ⟷ `.fnls` Bi-Directional Compilation:** Marketers will drag-and-drop marketing channels, conditional audience filters, and touchpoint nodes, automatically generating clean `.fnls` code.
 * **Single Source of Truth Execution:** The studio will **never** execute stochastic math in JavaScript. Instead, it will run the canonical Python core directly in the browser via **WebAssembly (Pyodide)** or connect to a local CLI server (`funnelscript serve`).
 * **Cash Runway & Liquidity Telemetry:** Real-time visual stress-testing of cash exhaustion dates, CAC non-linear escalation, and payment processor settlement lags.
 
